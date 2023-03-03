@@ -1,0 +1,124 @@
+/*basic style*/
+* {
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+
+body {
+background-color: white;
+}
+
+h1 {
+margin-bottom: 15px;
+text-align: center;
+color: purple;
+background-color: lightgray;
+padding: 12px;
+border: dotted 3px purple;
+font-size: 175%;
+}
+
+section {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+
+    }
+
+div {
+    position: relative;
+    background-color: mistyrose;
+    border: 1px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    }
+
+p {
+    position: relative;
+    clear: right;
+    }
+
+
+
+.p1{
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px 0px 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: blueviolet;
+    color: white;
+    }
+
+.p2{
+    float: right;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    margin: 0px 0px 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: darkmagenta;
+    }
+
+.p3{
+    color: white;
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px 0px 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: fuchsia;
+
+    }
+
+.info {
+     padding: 15px;
+     border: none;
+     background-color: mistyrose;
+     color: black;
+     margin: 5px ;
+     height: 200px;
+     overflow: auto;
+    }
+
+
+
+   @media (min-width: 992px) {
+.col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+ 
+  .col-md-6 {
+    width: 50%;
+  }
+ 
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+    float: left;
+    width: 100%;
+    }
+
+}
