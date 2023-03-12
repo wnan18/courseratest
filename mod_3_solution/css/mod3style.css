@@ -1,0 +1,54 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+.navbar{
+	background-color: midnightblue;
+	color:white;
+	border-color: black;
+	border-width: 3px;
+}
+body{
+	background-color: white;
+	color: black;
+	border-color: black;
+}
+.glyphicon{
+	font-size: 15px;
+	color:cadetblue; 
+}
+
+.center{
+	width: 90%;
+	background-color: grey;
+
+}
+.container
+{
+	background-color: cadetblue;
+}
+.text-center{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+#myNavbar ul li a {
+	color:white;
+}
+
+.navbar-brand{
+font-size: 25px;
+font-weight: bold;
+}
+
+#main-content{
+	
+	background-color: cadetblue;
+	border: solid 2px black;
+}
